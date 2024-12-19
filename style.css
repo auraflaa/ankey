@@ -3,7 +3,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
     background-color: #f4f4f9;
     color: #333;
 }
@@ -17,9 +16,9 @@ header {
 
 .navbar {
     list-style: none;
-    padding: 0;
     display: flex;
     justify-content: center;
+    padding: 0;
     margin: 0;
 }
 
@@ -30,11 +29,8 @@ header {
 .navbar a {
     color: #fff;
     text-decoration: none;
-}
-
-.hero {
-    padding: 20px;
-    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 main {
@@ -65,4 +61,17 @@ th, td {
     width: 150px;
     border-radius: 50%;
     margin: 10px 0;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
 }
