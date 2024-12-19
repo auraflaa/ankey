@@ -10,19 +10,22 @@
     <header>
         <nav>
             <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="certificates.html">Certificates</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#" onclick="loadContent('home')">Home</a></li>
+                <li><a href="#" onclick="loadContent('about')">About Me</a></li>
+                <li><a href="#" onclick="loadContent('education')">Education</a></li>
+                <li><a href="#" onclick="loadContent('skills')">Skills</a></li>
+                <li><a href="#" onclick="loadContent('certificates')">Certificates</a></li>
+                <li><a href="#" onclick="loadContent('hobbies')">Hobbies</a></li>
+                <li><a href="#" onclick="loadContent('contact')">Contact</a></li>
             </ul>
         </nav>
-        <div class="hero">
-            <h1>Priyangshu Mukherjee</h1>
-            <p>Welcome to my portfolio website!</p>
-        </div>
     </header>
+
+    <main id="content">
+        <!-- Dynamic content will be loaded here -->
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
